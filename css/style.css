@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: forestgreen;
+    
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding:15px;
+    text-align: center;
+    text-decoration: none;
+    color:firebrick;
+}
+   
+    .righty{
+        float:right;
+    }
+li a:hover{
+    background-color: dodgerblue;
+}
+.active{
+    background-color: aliceblue;
+}
